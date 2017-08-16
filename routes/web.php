@@ -17,6 +17,10 @@ Route::get('/home', function () {
     return view('home');
 });
 
+/*--------- TESTE 2-------------*/
+
+Route::post('/customregister','CustomAuth\CustomRegisterController@salva');
+
 /*--------- PAGINA INICIAL -------------*/
 
 Route::get('/', function () {

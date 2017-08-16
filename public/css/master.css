@@ -6,6 +6,14 @@ body {
 	background-size: cover;
 }
 
+.body_html{
+	padding-top: 70px;
+}
+
+.glyphicon-user{
+	padding-right: 7px;
+}
+
 .navbar-brand {
   padding: 0px;
 }
